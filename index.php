@@ -42,8 +42,8 @@
 				else if($_GET[m]=='search')
 				{
 					?>
-                    <div style="margin:15% 30%;">
-						<input type="text" class="tt" id="_search" style="float:left;" placeholder="請輸入欲查詢內容"><img src="source/search.png" width="40" style="cursor:pointer;" onClick="_searc()"></div>
+                    <div style="margin:15% 28%;">
+						<font size="+3">訂單編號 : </font><input type="text" class="tt" id="_search" placeholder="請輸入欲查詢訂單之編號"><img src="source/search.png" width="40" style="cursor:pointer; position:relative; top:10px; left:10px;" onClick="_searc()"></div>
                     </div>
 					<?
 				}

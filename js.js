@@ -38,6 +38,7 @@ function _inform(i)
 {
 	$("#cover").fadeIn(1000)
 	$("#hid").css("top","50px")
+	$("#hid").css("margin","0% 25%")
 	$("#hid").show(1000)
 	if (window.XMLHttpRequest)
 	{
