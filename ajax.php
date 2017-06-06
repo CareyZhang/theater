@@ -191,24 +191,25 @@
 		{
 			$a7=$mq("select * from book where _number = $_GET[_search] order by _seat ASC");
 			$a71=$mr($mq("select * from book where _number = $_GET[_search]"),0,"_sid");
-			$a72=$mq("select * from movie where _id = $a71");
+			$a72=$mq("select * from movietime where _id = $a71");
+			$a73=$mr($a72,0,"_sid");
 			?>
 			<fieldset>
             <legend><h2>訂票資訊</h2></legend>
             <table width="100%">
             <tr>
-            <td rowspan="5" width="50%"><img src="pic/<?=$mr($a72,0,"_img")?>" width="500" /></td>
+            <td rowspan="5" width="50%"><img src="pic/<?=$mr($mq("select * from movie where _id = $a73"),0,"_img")?>" width="500" /></td>
             <td width="100">電影名稱:</td>
-            <td><?=$mr($a72,0,"_name")?></td>
+            <td><?=$mr($mq("select * from movie where _id = $a73"),0,"_name")?></td>
             </tr>
             <tr>
             <td>電影日期:</td>
-            <td><?=date("Y/m/d",$mr($mq("select * from movietime where _sid = $a71"),0,"_time"))?></td>
+            <td><?=date("Y/m/d",$mr($a72,0,"_time"))?></td>
             </tr>
             </tr>
             <tr>
             <td>電影時間:</td>
-            <td><?=date("H:i",$mr($mq("select * from movietime where _sid = $a71"),0,"_time"))?></td>
+            <td><?=date("H:i",$mr($a72,0,"_time"))?></td>
             </tr>
             <tr>
             <td>座位</td>
