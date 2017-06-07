@@ -53,6 +53,6 @@
     <div class="bottom" align="right">
         <font style="position:relative; right:20px;"><em>&copy;&nbsp;Copyright by someone</em></font>
     </div>
-    <div id="cover" onclick="xxx" style="width:100%; min-height:100%; z-index:1; background-color:rgba(0,0,0,0.8); display:none; position:absolute; top:0px; left:0px;"><center><font size="+3" color="#FFFFFF">*點擊空白處以跳出</font><br><br><br></center><div id="hid" style="width:50%; height:auto; border:rgba(102,102,102,0.5) 10px solid; border-radius:10px; margin:0% 10%; display:none; z-index:2; background-color:rgba(0,153,204,0.8);" align="left"></div>
+    <div id="cover" onclick="xxx" style="width:100%; min-height:100%; z-index:1; background-color:rgba(0,0,0,0.8); display:none; position:fixed; top:0px; left:0px;"><center><font size="+3" color="#FFFFFF">*點擊空白處以跳出</font><br><br><br></center><div id="hid" style="width:50%; height:auto; border:rgba(102,102,102,0.5) 10px solid; border-radius:10px; margin:0% 10%; display:none; z-index:2; background-color:rgba(0,153,204,0.8);" align="left"></div>
 </body>
 </html>
