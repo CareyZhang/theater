@@ -16,7 +16,7 @@
 		while($aa2=$mfa($a2))
 		{
 			?>
-            <img src="pic/<?=$aa2[_img]?>" style="width:100%; height:auto;">
+            <center><img src="pic/<?=$aa2[_img]?>" style=" height:300px;"></center>
 			<fieldset>
             <legend><strong><em><font size="+3"><?=$aa2[_name]?></font></em></strong></legend>
             導演:<?=$aa2[_director]?><br>
