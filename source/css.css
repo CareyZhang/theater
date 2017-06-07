@@ -72,6 +72,8 @@ a
 	height:auto;
 	background-color:rgba(0,102,255,1);
 	color:rgba(255,255,255,1);
+	position:fixed;
+	bottom:0px;
 }
 .item
 {
