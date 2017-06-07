@@ -1,4 +1,4 @@
-<link href="source/css.css" rel="stylesheet" type="text/css">
+﻿<link href="source/css.css" rel="stylesheet" type="text/css">
 <script src="source/jquery-1.7.2.min.js"></script>
 <script src="js.js"></script>
 <?
@@ -7,7 +7,7 @@
 	{
 		$a1=$mr($mq("select * from movie where _id = $_GET[video]"),0,"_video");
 		?>
-		<iframe src="<?=$a1?>" style="width:100%; min-height:300px;" frameborder="0" allowfullscreen></iframe>
+		<iframe src="<?=$a1?>" style="width:100%; min-height:500px;" frameborder="0" allowfullscreen></iframe>
 		<?
 	}
 	else if($_GET[q]==2)
