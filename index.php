@@ -14,7 +14,6 @@
             <ul class="menu" style="position:relative; top:30%;">
                 <a href="index.php"><li class="menu ls">現正熱映</li></a>
                 <a href="?m=search"><li class="menu ls">查詢訂票</li></a>
-                <a href=""><li class="menu ls">聯絡我們</li></a>
             </ul>
         </div>
         <div class="content">
