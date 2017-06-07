@@ -10,7 +10,7 @@
 MySQL、PHP、HTML、CSS、Javascript、jquery、ajax
 
 ## 重建環境:
-1. 安裝"Xampp"後，先開啟"XAMPP Control Panel"將"Apache"和"MySQL" Start。
+1. 安裝"Xampp"後，先開啟"XAMPP Control Panel"將"Apache"和"MySQL" start。
 2. 將檔案放到"C:\xampp\htdocs\theater"目錄下。
 3. 在網址列打入[http://localhost/phpmyadmin](http://localhost/phpmyadmin)，點擊"資料庫"，新建資料庫名稱"theater"，編碼與排序選擇"utf8_general_ci"，點擊"建立"。
 4. 新增使用者，帳號為admin，主機為localhost，密碼為0000，全域權限全選，"點擊執行"。
