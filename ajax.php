@@ -100,7 +100,7 @@
                 }
                 ?>
             </div>
-            <input type="button" value="確定" style="width:80px; height:40px; background-color:rgba(255,255,255,1); border-radius:5px; font-size:18px; cursor:pointer; position:relative; right:-90%; margin:10px 0px;" onclick="_seatverify(<?=$_GET[book]?>)" />
+            <center><input type="button" value="確定" style="width:80px; height:40px; background-color:rgba(255,255,255,1); border-radius:5px; font-size:18px; cursor:pointer; margin:10px 0px;" onclick="_seatverify(<?=$_GET[book]?>)" /></center>
 		<?
 	}
 	else if($_GET[q]==5)
