@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>電影通</title>
+<title>94愛電影</title>
 </head>
 <? include("source/sql.php");?>
 <link href="source/css.css" rel="stylesheet" type="text/css">
